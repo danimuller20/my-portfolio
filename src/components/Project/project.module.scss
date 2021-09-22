@@ -1,0 +1,22 @@
+.projectContainer {
+  display: flex;
+  color: #fff;
+  background-color: #111111;
+  text-decoration: none;
+  gap: 1rem;
+  width: 35rem;
+  padding: 1rem;
+
+  img {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  h3 {
+    color: #04d804;
+  }
+  p {
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+  }
+}

@@ -1,0 +1,40 @@
+.contact {
+  background-color: #26262b;
+  padding: 5rem;
+  color: #fff;
+
+  h2 {
+    color: #04d804;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+.contactInput {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  gap: 1rem;
+
+  input {
+    height: 2.5rem;
+    border: none;
+    font-size: 1.6rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+}
+
+.message {
+  height: 10rem;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.send {
+  background-color: transparent;
+  color: #fff;
+}
