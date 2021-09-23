@@ -1,36 +1,26 @@
 .aboutMeContainer {
   background-color: #2c2c31;
   height: auto;
-  padding: 3rem;
-}
-
-.aboutMe {
-  color: #04d804;
-  font-size: 2.5rem;
-  text-align: center;
+  padding: 1rem;
 }
 
 .aboutMeSubContainer {
   display: flex;
   gap: 2rem;
-  width: 80%;
+  width: 100%;
   margin: 5rem auto;
 ;}
 
 .mySelf {
-  width: 20rem;
-  height: 22rem;
-  box-shadow: 8px 6px #04d804;
+  width: 11.5rem;
+  box-shadow: 0 0 0.5rem #04d804;
+  border-radius: 50%;
 }
 
 .subTitle, .aboutMeStory{
   color: #fff;
 
-  span {
-    color: #04d804;
-  }
-
-  a {
+  span, a {
     color: #04d804;
   }
 }
@@ -41,7 +31,27 @@
 }
 
 .storyContainer {
-  width: 60%;
+  width: 80%;
   margin-left: 1rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  p {
+    text-align: justify;
+  }
 }
 
+@media screen and (min-width: 800px) {
+
+  .mySelf {
+    width: 13rem;
+  }
+
+  .storyContainer {
+    width: 60%;
+  }
+
+}

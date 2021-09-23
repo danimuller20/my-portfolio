@@ -4,18 +4,21 @@ import myPhoto from '../../images/eu.jpeg'
 export const AboutMe = () => {
   return (
     <section className={styles.aboutMeContainer}>
-      <h2 className={styles.aboutMe}>About Me</h2>
       <div className={styles.aboutMeSubContainer}>
-        <img className={styles.mySelf} src={myPhoto} alt={"My self smiling"}/>
         <div className={styles.storyContainer}>
-          <h3 className={styles.subTitle}>My name is <span>Daniela Muller</span></h3>
-          <p className={styles.aboutMeStory}>I am a software developer and passionate about front-end.
-            I am currently studying at <a href="https://www.betrybe.com/"
-            rel="noopener noreferrer"
-            target="_blank">Trybe</a>,
-            where I gained programming experience and
-            learned programming. I have a degree in Archival Science from the Federal University 
-            of Santa Catarina.</p>
+          <img className={styles.mySelf} src={myPhoto} alt={"My self smiling"}/>
+          <h2 className={styles.subTitle}><span>About Me</span></h2>
+          <p className={styles.aboutMeStory}>
+            Hi! I'm from Florianópolis - Brazil. I'm a front-end
+            developer at <a href="https://www.jungledevs.com/"
+            rel="noopener noreferrer" target="_blank">JungleDevs</a> and 
+            I'm studying full-stack web development 
+            at <a href="https://www.betrybe.com/" rel="noopener noreferrer"
+            target="_blank">Trybe</a> School.
+            I have a degree in Archival Science from the Federal University of Santa Catarina.
+            My main hobbies are cooking, reading and hiking.
+            On this landing page I want to introduce you a little about me.
+            </p>
         </div>
       </div>
     </section>

@@ -1,11 +1,15 @@
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #26262b;
   padding: 5rem;
   color: #fff;
 
   h2 {
     color: #04d804;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
 }
@@ -13,28 +17,47 @@
 .contactInput {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 0 auto;
-  gap: 1rem;
+  gap: 0.5rem;
+  width: 90vw;
+
 
   input {
     height: 2.5rem;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   label {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 .message {
   height: 10rem;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .send {
   background-color: transparent;
   color: #fff;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .contactInput {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+
+  .contact {
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+  .contactInput {
+    width: 70%;
+  }
 }

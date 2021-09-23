@@ -1,32 +1,48 @@
 .header {
-  background-color: #26262b;
+  background-image: url('../../images/matrix.gif');
+  opacity: 0.85;
   height: auto;
   color: #04d804;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .headerContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  margin-left: 7rem;
   line-height: 0;
 }
 
 .computerLogo {
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
 }
 
 .subTitle {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #fff;
   font-weight: 500;
 }
 
 .title {
-  color: #04d804;
-  display: block;
-  font-size: 3.5rem;
+  font-size: 1.8rem;
 } 
+
+@media screen and (min-width: 800px) {
+  .headerContainer{
+    align-items: flex-start;
+    margin-left: 7rem;
+  }
+  
+  .computerLogo {
+    width: 7rem;
+  }
+  
+  .subTitle {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  } 
+}

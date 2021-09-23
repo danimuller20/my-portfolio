@@ -16,16 +16,14 @@ export const Projects = () => {
       })
   }, [])
 
-  console.log(loading);
-
   return (
-    loading ?  <p>Loading...</p> :
+    loading ?  <p className={styles.projectsContainer}>Loading...</p> :
     (
     <section className={styles.projectsContainer}>
       <h2>Projects</h2>
       <div className={styles.allProjectsContainer}>
         {projects.projects.map(({
-            displayName, description, website, images}, ) => {
+            displayName, description, website, images, githubUrl} ) => {
           return (
             <Project
               key={displayName}
@@ -33,6 +31,7 @@ export const Projects = () => {
               description={description}
               website={website}
               thumbnail={images[0].resolutions.desktop.url}
+              githubUrl={githubUrl}
             />
           )
         })}
