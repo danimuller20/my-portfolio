@@ -3,7 +3,7 @@ import Popup from 'reactjs-popup';
 
 import styles from './modal.module.scss';
 const contentStyle = { background: '#242222',
-                        width: '30rem',
+                        width: '60%',
                         height: '15rem',
                         padding: '2rem',
                         borderRadius: '5px',
