@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.2ec351a0.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.e9d0f05c.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.e9d0f05c.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.f2fcf31a.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.f2fcf31a.js.map",
+    "static/js/2.96805fa5.chunk.js": "/my-portfolio/static/js/2.96805fa5.chunk.js",
+    "static/js/2.96805fa5.chunk.js.map": "/my-portfolio/static/js/2.96805fa5.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.2ec351a0.chunk.css.map": "/my-portfolio/static/css/main.2ec351a0.chunk.css.map",
+    "static/js/2.96805fa5.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.96805fa5.chunk.js.LICENSE.txt",
+    "static/media/css-3-logo.3675e3b3.png": "/my-portfolio/static/media/css-3-logo.3675e3b3.png",
+    "static/media/eu.bfb3a0cf.jpeg": "/my-portfolio/static/media/eu.bfb3a0cf.jpeg",
+    "static/media/git-logo.140fa4d6.png": "/my-portfolio/static/media/git-logo.140fa4d6.png",
+    "static/media/html5-logo.a577af37.png": "/my-portfolio/static/media/html5-logo.a577af37.png",
+    "static/media/javaScript-logo.ccbd862b.png": "/my-portfolio/static/media/javaScript-logo.ccbd862b.png",
+    "static/media/header.module.scss": "/my-portfolio/static/media/matrix.90477685.gif",
+    "static/media/mongodb-logo.1aca075d.svg": "/my-portfolio/static/media/mongodb-logo.1aca075d.svg",
+    "static/media/monitor-coding-svgrepo-com.5d697b4b.svg": "/my-portfolio/static/media/monitor-coding-svgrepo-com.5d697b4b.svg",
+    "static/media/mysql-logo.7929b938.png": "/my-portfolio/static/media/mysql-logo.7929b938.png",
+    "static/media/node-logo.8e341cc0.png": "/my-portfolio/static/media/node-logo.8e341cc0.png",
+    "static/media/postman-logo.89372524.png": "/my-portfolio/static/media/postman-logo.89372524.png",
+    "static/media/python-logo.2e65c2b7.png": "/my-portfolio/static/media/python-logo.2e65c2b7.png",
+    "static/media/react-logo.73ac128a.png": "/my-portfolio/static/media/react-logo.73ac128a.png",
+    "static/media/redux-logo.296b9306.png": "/my-portfolio/static/media/redux-logo.296b9306.png",
+    "static/media/sass-logo.aa16d644.png": "/my-portfolio/static/media/sass-logo.aa16d644.png",
+    "static/media/sequelize-logo.e7adaa25.png": "/my-portfolio/static/media/sequelize-logo.e7adaa25.png",
+    "static/media/socket-io-logo.1c7f5e76.svg": "/my-portfolio/static/media/socket-io-logo.1c7f5e76.svg",
+    "static/media/trello.4eaa2d02.svg": "/my-portfolio/static/media/trello.4eaa2d02.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2fcf31a.js",
+    "static/js/2.96805fa5.chunk.js",
+    "static/css/main.2ec351a0.chunk.css",
+    "static/js/main.e9d0f05c.chunk.js"
+  ]
+}
