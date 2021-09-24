@@ -14,7 +14,10 @@ import postman from '../images/postman-logo.png';
 import trello from '../images/trello.svg';
 import python from '../images/python-logo.png';
 
-export const skills = [
+export const frontEnd = [
+  {
+    stack: 'Front-end'
+  },
   {
     image: html5,
     description: 'HTML5',
@@ -39,9 +42,11 @@ export const skills = [
     image: redux,
     description: 'Redux',
   },
+]
+
+export const backEnd = [
   {
-    image: git,
-    description: 'Git',
+    stack: 'Back-end'
   },
   {
     image: mySql,
@@ -68,6 +73,16 @@ export const skills = [
     description: 'Socket.io',
   },
   {
+    image: python,
+    description: 'Python',
+  }
+]
+
+export const other = [
+  {
+    stack: 'Other'
+  },
+  {
     image: postman,
     description: 'Postman',
   },
@@ -76,7 +91,7 @@ export const skills = [
     description: 'Trello',
   },
   {
-    image: python,
-    description: 'Python',
+    image: git,
+    description: 'Git',
   }
 ]

@@ -11,7 +11,7 @@ export const AboutMe = () => {
           <p className={styles.aboutMeStory}>
             Hi! I'm from Florianópolis - Brazil. I'm a front-end
             developer at <a href="https://www.jungledevs.com/"
-            rel="noopener noreferrer" target="_blank">JungleDevs</a> and 
+            rel="noopener noreferrer" target="_blank">Jungle Devs</a> and 
             I'm studying full-stack web development 
             at <a href="https://www.betrybe.com/" rel="noopener noreferrer"
             target="_blank">Trybe</a> School.

@@ -3,7 +3,6 @@ import domainIcon from '../../images/domain-web.png';
 import gitHubIcon from '../../images/github-web.png';
 import styles from './project.module.scss';
 export const Project = ({displayName, description, website, thumbnail, githubUrl }) => {
-  console.log(githubUrl);
   return (
     <div className={styles.projectContainer}>
       <img src={thumbnail} alt={displayName}/>
