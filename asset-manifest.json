@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.77ade27b.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.d6569dfc.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.d6569dfc.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.c05f93cf.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.c05f93cf.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.f2fcf31a.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.f2fcf31a.js.map",
     "static/js/2.bf3367a4.chunk.js": "/my-portfolio/static/js/2.bf3367a4.chunk.js",
@@ -17,7 +17,6 @@
     "static/media/javaScript-logo.ccbd862b.png": "/my-portfolio/static/media/javaScript-logo.ccbd862b.png",
     "static/media/header.module.scss": "/my-portfolio/static/media/matrix.90477685.gif",
     "static/media/mongodb-logo.1aca075d.svg": "/my-portfolio/static/media/mongodb-logo.1aca075d.svg",
-    "static/media/monitor-coding-svgrepo-com.5d697b4b.svg": "/my-portfolio/static/media/monitor-coding-svgrepo-com.5d697b4b.svg",
     "static/media/mysql-logo.7929b938.png": "/my-portfolio/static/media/mysql-logo.7929b938.png",
     "static/media/node-logo.8e341cc0.png": "/my-portfolio/static/media/node-logo.8e341cc0.png",
     "static/media/postman-logo.89372524.png": "/my-portfolio/static/media/postman-logo.89372524.png",
@@ -33,6 +32,6 @@
     "static/js/runtime-main.f2fcf31a.js",
     "static/js/2.bf3367a4.chunk.js",
     "static/css/main.77ade27b.chunk.css",
-    "static/js/main.d6569dfc.chunk.js"
+    "static/js/main.c05f93cf.chunk.js"
   ]
 }
