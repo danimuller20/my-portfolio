@@ -32,8 +32,6 @@ export const Skills = () => {
     <section className={styles.skillsContainer}>
       <h2>Skills</h2>
       <h3>Frameworks and tools:</h3>
-
-      <div className={styles.allToolsContainer}>
         <table className={styles.tools}>
           <tbody>
             {renderStack(frontEnd)}
@@ -45,7 +43,6 @@ export const Skills = () => {
             {renderStack(other)}
           </tbody>
         </table>
-      </div>
     </section>
   );
 };
