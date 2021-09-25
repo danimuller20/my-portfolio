@@ -17,7 +17,7 @@ export const Projects = () => {
   }, [])
 
   return (
-    loading ?  <p className={styles.projectsContainer}>Loading...</p> :
+    loading ?  <p className={styles.loader}>Loading...</p> :
     (
     <section className={styles.projectsContainer}>
       <h2>Projects</h2>
